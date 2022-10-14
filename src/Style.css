@@ -1,0 +1,64 @@
+
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+
+/* Component: TodoItem */
+.div-TodoItem {
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.div-TodoItem:nth-child(odd) {
+    height: 50px;
+    background-color: #ba24ff41;
+    border-radius: 2px;
+}
+
+.div-TodoItem:nth-child(even) {
+    height: 50px;
+    background-color: #a4e2ffb9;
+    border-radius: 2px;
+}
+
+
+ul {
+    list-style: none;
+    position: relative;
+    top: 1.4rem;
+}
+
+li {
+    position: relative;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.Edit {
+    height: 2.2rem;
+    position: relative;
+    top: 0.7rem;
+    bottom: 1.1rem;
+}
+
+.Delete {
+    height: 2.2rem;
+    position: relative;
+    top: 0.7rem;
+    bottom: 1.1rem;
+}
+
+input[type="checkbox"] {
+    outline: none;
+    transform: scale(1.3,1.3);
+}
+
+
+/* EditForm */
+.EditFormInput {
+    position: relative;
+    top: -1.7rem;
+    left: 2rem;
+}
